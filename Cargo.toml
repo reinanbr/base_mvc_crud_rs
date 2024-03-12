@@ -1,0 +1,15 @@
+[package]
+name = "base_mvc_crud"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+
+#rocket_contrib = "0.5.0-rc.1"
+[dependencies]
+rocket = "0.5.0"
+[dependencies.rocket_dyn_templates]
+version = "0.1.0"
+features = ["handlebars", "tera"]
+
